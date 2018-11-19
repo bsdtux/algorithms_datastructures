@@ -1,2 +1,3 @@
 unittest:
-	pipenv run pytest --cov-report term-missing --cov bubble_sort --cov recursive_sum
+	cd bubble_sort && make unittest
+	cd recursive_sum && make unittest
